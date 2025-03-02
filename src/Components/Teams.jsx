@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Teams = () => {
   return (
@@ -15,7 +14,7 @@ const Teams = () => {
         </div> */}
 
         <div className="text-sm text-center sm:text-left">
-          Developed by <Link to="/about"><span className="font-bold">DSBS Student Association</span></Link>
+          Developed by <a href="https://dsbsstudentassociation.vercel.app/" target="_blank" rel="noopener noreferrer"><span className="font-bold">DSBS Student Association</span></a> & <a href="https://www.linkedin.com/company/the-data-science-club-srmist/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><span className="font-bold">Data Science Club</span></a>
         </div>
       </div>
     </footer>
