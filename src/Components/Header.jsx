@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-md border-gray-700">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-0">
   <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
     <div className="flex items-center">
     <img
