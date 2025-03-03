@@ -39,7 +39,7 @@ const Body = () => {
   // }
 
   return (
-    <div>
+    <div className="pt-10">
       <div className="mt-small">
       <CollegeName />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp duration-500">

@@ -30,11 +30,11 @@ const Header = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
   <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
     <div className="flex items-center">
-      <img
-        src={logo}
-        alt="Data Conclave Logo"
-        className="w-20 h-10 sm:w-22 sm:h-10 md:w-22 md:h-10 lg:w-24 lg:h-12 xl:w-24 xl:h-12 mr-2 object-cover"
-      />
+    <img
+  src={logo}
+  alt="Data Conclave Logo"
+  className="w-20 h-20 sm:w-22 sm:h-22 md:w-22 md:h-22 lg:w-24 lg:h-24 xl:w-24 xl:h-24 mr-2 object-cover rounded-full"
+/>
       
     </div>
           </a>

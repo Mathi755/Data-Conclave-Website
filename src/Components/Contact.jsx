@@ -9,12 +9,12 @@ const Contact = () => {
       coordinators: [
         {
           name: "Bastin K J",
-          designation: "Student Coordinator",
+          designation: "General Secretary",
           phone: "+918939737057",
         },
         {
-          name: "Name 2",
-          designation: "Student Coordinator",
+          name: "Guru Prasaath",
+          designation: "Data Science Club Head",
           phone: "+919025896912",
         //   email: "jane@example.com",
         },
@@ -24,14 +24,14 @@ const Contact = () => {
       trackName: "DAY II",
       coordinators: [
         {
-          name: "Name 3",
-          designation: "Student Coordinator",
+          name: "Darwin D",
+          designation: "Media Head",
           phone: "+918056747791",
         //   email: "alice@example.com",
         },
         {
-          name: "Name 4",
-          designation: "Student Coordinator",
+          name: "Jonesh Linso",
+          designation: "Creatives Head",
           phone: "+918122116830",
         //   email: "bob@example.com",
         },
@@ -41,16 +41,16 @@ const Contact = () => {
 
   return (
     <div className="contact-container bg-transparent text-white py-10 px-10">
+      <br />
       <h1 className="text-3xl font-extrabold text-center font-otherfont mb-8 bg-clip-text text-transparent bg-gradient-to-r from-[#fc00ff] to-[#00dbde]">
     CONTACT DETAILS
 </h1>
+<br />
 
       <div className="tracks-container flex flex-col gap-10">
         {tracks.map((track, index) => (
           <div key={index} className="track">
-            <h2 className="text-2xl font-extrabold text-center mb-6">
-              {track.trackName}
-            </h2>
+            <br />
             <div className="coordinators-column flex flex-wrap justify-center gap-20">
               {track.coordinators.map((coordinator, idx) => (
                 <div key={idx} className="anim-container w-full sm:w-1/2 lg:w-1/3">
