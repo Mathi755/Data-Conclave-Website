@@ -16,42 +16,7 @@ import { Link } from "react-router-dom";
 const NonCircuitnTech = () => {
   const color = randomColor();
   const circuittechnicalEvents = [
-    {
-      id: 1,
-      imageSrc: cini,
-      altText: "Cinephilia",
-      path: "/cinephilia",
-    },
-    {
-      id: 2,
-      imageSrc: vault,
-      altText: "Mystery Vault",
-      path: "/mysteryvault",
-    },
-    {
-      id: 3,
-      imageSrc: deadly,
-      altText: "Deadly Deeds",
-      path: "/deadlydeeds",
-    },
-    {
-      id: 4,
-      imageSrc: iplauction,
-      altText: "IPL Auction",
-      path: "/iplauction",
-    },
-    {
-      id: 5,
-      imageSrc: bgmi,
-      altText: "BGMI",
-      path: "/bgmi",
-    },
-    {
-      id: 6,
-      imageSrc: ff,
-      altText: "Free Fire",
-      path: "/ff",
-    },
+    
   ];
 
   return (
@@ -62,7 +27,6 @@ const NonCircuitnTech = () => {
           textShadow: `2px 2px 15px ${color}`,
         }}
       >
-        Non Technical Events
       </h3>
 
       <div>

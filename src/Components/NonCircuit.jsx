@@ -8,12 +8,7 @@ import img from "../assets/symposium/track1.jpg"
 const NonCircuit = () => {
   return (
     <div>
-      <TrackInfo 
-      label="Day I"
-      Image={img}
-      Description="Registration for Data Conclave is now open! Secure your spot today and
-            be part of an event that celebrates innovation and collaboration.
-            Don’t miss the opportunity to engage with tech enthusiasts and experts." />
+      
       <NonCircuitTec />
       <NonCircuitnTech />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
