@@ -13,7 +13,7 @@ const Contact = () => {
           phone: "+918939737057",
         },
         {
-          name: "Guru Prasaath",
+          name: "Gomathi Nayagam",
           designation: "Data Science Club Head",
           phone: "+919025896912",
         //   email: "jane@example.com",
