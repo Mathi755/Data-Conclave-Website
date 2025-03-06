@@ -19,5 +19,5 @@ export const questions = [
     id: 4,
     question: "Are there prizes for competitions?",
     answer: "Yes, Certificates are awarded to winners of competitions.",
-  },
+  }
 ];
