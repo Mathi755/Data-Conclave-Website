@@ -35,9 +35,44 @@ const NewAbout = () => {
         <div className="flex flex-col md:flex-row items-center w-full">
           {/* Text Section */}
           <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
-            <p>
-            Data Conclave is the epitome of data-driven innovation and collaboration, designed to foster analytical thinking, ignite insights, and push the boundaries of data science. With a focus on modern advancements in AI, machine learning, and big data, it stands as a beacon for data enthusiasts, paving the way for a future powered by data-driven decision-making and transformative technologies.
-            </p>
+          <p><br />
+      🚀 <strong>Welcome to Data Conclave 2025 - The Future of Data & AI!</strong> Join us for an exclusive event dedicated to cutting-edge innovations, trends, and advancements in Data Science, AI, and emerging technologies. This is your chance to learn, collaborate, and network with fellow students, professionals, and industry leaders shaping the future of tech!
+      <br />
+      <br />
+      📅 <strong>Event Dates:</strong> 10th & 11th March <br />
+      📍 <strong>Venue:</strong> TP2-702
+      <br />
+      <br />
+      🔹 <strong>What to Expect?</strong>
+      <ul>
+        <li>Insightful talks by industry experts</li>
+        <li>Hands-on workshops & interactive sessions</li>
+        <li>Networking opportunities with professionals</li>
+        <li>Explore the latest AI & Data Science trends</li>
+      </ul>
+      <br />
+      <strong>Day 1 – March 10</strong>
+      <ul>
+        <li>✅ Expert Talks – Gain insights from industry leaders on the latest advancements in AI & Data Science</li>
+        <li>✅ Hands-on Workshops – Engage in practical learning and interactive sessions with professionals</li>
+        <li>✅ Project Expo – Explore innovative AI & Data Science projects</li>
+      </ul>
+      <br />
+      <strong>Day 2 – March 11</strong>
+      <ul>
+        <li>✅ Project Expo – Witness groundbreaking projects in AI & Data Science</li>
+        <li>✅ Expert Talks – Learn from experienced professionals about the future of AI</li>
+        <li>✅ Panel Discussion – Participate in thought-provoking discussions with industry experts</li>
+      </ul>
+      <br />
+      🎯 <strong>Who Can Attend?</strong> Students, tech enthusiasts, researchers, and professionals eager to dive into the world of AI & Data Science.
+      <br />
+      <br />
+      💡 <strong>Ready to be part of the revolution?</strong> Fill in the form below and secure your spot!
+      <br />
+      <br />
+      👉 <strong>Register now and take a step towards the future! 🚀</strong>
+    </p>
             <p className="mt-4">
               Join us in this journey where vision meets reality, and together,
               we shape the technology of tomorrow. Data Conclave is not just an
