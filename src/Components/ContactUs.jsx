@@ -86,7 +86,32 @@ const ContactUs = () => {
       href="mailto:symposium2024@jerusalemengg.ac.in"
       className="text-sm md:text-lg hover:underline"
     >
-      dcs.dsbs.ktr@srmist.edu.in
+      dsbsassociation@gmail.com
+    </a>
+  </div>
+  <div className="flex items-left gap-x-3">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      height="28"
+      width="28"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth="2"
+      className="flex-shrink-0"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        stroke="#fff"
+        d="M3 8l7.894 5.308c.63.424 1.648.424 2.278 0L21 8M5 19h14c1.657 0 3-1.343 3-3V7c0-1.657-1.343-3-3-3H5C3.343 4 2 5.343 2 7v9c0 1.657 1.343 3 3 3z"
+      />
+    </svg>
+    <a
+      href="mailto:symposium2024@jerusalemengg.ac.in"
+      className="text-sm md:text-lg hover:underline"
+    >
+      dsc.dsbs.ktr@srmist.edu.in
     </a>
   </div>
 </div>

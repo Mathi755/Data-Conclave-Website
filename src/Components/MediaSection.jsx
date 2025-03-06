@@ -56,7 +56,7 @@ const MediaSection = () => {
         {/* Facebook Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://m.facebook.com/jerusalem.chn/')}
+          onClick={() => redirectTo('https://www.instagram.com/dsc_dsbs/')}
         >
           <svg
             height="24"
