@@ -5,7 +5,7 @@ import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import a1 from "../utils/Img/banner/Expert Talk/1.jpg";
 import a2 from "../utils/Img/banner/Expert Talk/2.jpg";
-import a3 from "../utils/Img/banner/Expert Talk/3.jpg";
+import a3 from "../utils/Img/banner/thamarai.jpg";
 import RandomEvents from "./RandomEvents";
 
 import { Link } from "react-router-dom";

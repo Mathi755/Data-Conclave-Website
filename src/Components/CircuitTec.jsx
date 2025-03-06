@@ -4,12 +4,10 @@ import "../text.css";
 import Card from "./Card";
 import Image from '../utils/Img/TechLogo.jpg';
 import energia from "../utils/Img/banner/Expert Talk/6.jpg";
-
-
 import batallia from "../utils/Img/banner/Expert Talk/4.jpg";
-import bizqueset from "../utils/Img/banner/Expert Talk/2.jpg"
-import tescaflow from "../utils/Img/banner/Expert Talk/5.jpg"
-import cassedete from "../utils/Img/banner/Expert Talk/3.jpg"
+import bizqueset from "../utils/Img/banner/panel.jpg";
+import tescaflow from "../utils/Img/banner/Expert Talk/5.jpg";
+import cassedete from "../utils/Img/banner/Expert Talk/3.jpg";
 
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
@@ -26,7 +24,6 @@ const CircuitTec = () => {
       altText: "Energia Nova",
       label: "Energia Nova",
       path: "/energianova",
-      // onClick: () => alert("Energia Nova clicked"),
     },
     {
       id: 2,
@@ -34,22 +31,28 @@ const CircuitTec = () => {
       altText: "Casse-dete",
       label: "Casse-dete",
       path: "/cassedete",
-    },{
+    },
+    {
       id: 3,
       imageSrc: batallia, 
-      altText: "Casse-dete",
-      label: "Casse-dete",
+      altText: "Batallia",
+      label: "Batallia",
       path: "/batallia",
-    },{
+    },
+    {
       id: 4,
       imageSrc: tescaflow, 
-      altText: "Casse-dete",
-      label: "Casse-dete",
+      altText: "Tescaflow",
+      label: "Tescaflow",
       path: "/tescaflow",
     },
-    
-   
-    
+    {
+      id: 5,
+      imageSrc: bizqueset, 
+      altText: "Bizqueset",
+      label: "Bizqueset",
+      path: "/bizqueset",
+    },
   ];
 
   return (
@@ -69,13 +72,13 @@ const CircuitTec = () => {
           {/* Loop through each event and render a Card */}
           {circuittechnicalEvents.map((card) => (
             <Link to={card.path} key={card.id}>
-            <Card
-              imageSrc={card.imageSrc}
-              altText={card.altText}
-              // label={card.label}
-              // onClick={card.onClick}
-            />
-          </Link>
+              <Card
+                imageSrc={card.imageSrc}
+                altText={card.altText}
+                // label={card.label}
+                // onClick={card.onClick}
+              />
+            </Link>
           ))}
         </main>
       </div>

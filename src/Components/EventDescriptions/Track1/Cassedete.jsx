@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import JigsawImage from "../../../utils/Img/banner/Expert Talk/3.jpg";
+import JigsawImage from "../../../utils/Img/banner/thamarai.jpg";
 
 const Cassedete = () => {
   const tiltRefJigsaw = useRef(null);
@@ -47,22 +47,22 @@ const Cassedete = () => {
 
           <section className="text-gray-300 text-justify">
             <h2 className="text-xl md:text-2xl font-bold gradient-text">
-              Chief Guest
+              Guest Speaker
             </h2>
             <p className="text-body lg:text-2xl">
-              <strong>Sowmiyalakshmi</strong><br />
-              <strong>Designation:</strong> Data Engineer, Infosys<br />
-              <strong>Expert Talk Topic:</strong> Data Analytics, Generative AI, and Prompt Engineering<br />
-              <strong>Session Timing:</strong> Morning, 10:00 AM
+              <strong>Ms. Thamaraiselvi Dhivakar</strong><br />
+              <strong>Designation:</strong> Data Scientist, Accenture<br />
+              <strong>Workshop Topic:</strong> End-to-End Data Analytics<br />
+              <strong>Session Timing:</strong> Afternoon, 1:00 PM
             </p>
             <p className="text-body lg:text-2xl mt-4">
-              We are delighted to welcome Sowmiyalakshmi, an accomplished Data Engineer at Infosys, as a distinguished guest speaker for our workshop. With a strong background in data analytics, artificial intelligence, and cutting-edge AI applications, she has played a pivotal role in leveraging data-driven insights to drive business growth and innovation.
+              We are privileged to host Ms. Thamaraiselvi Dhivakar, an esteemed Data Scientist at Accenture, as a guest speaker for our workshop. With extensive expertise in data analytics, machine learning, and business intelligence, she has been instrumental in leveraging data-driven insights to optimize decision-making across industries.
             </p>
             <p className="text-body lg:text-2xl mt-4">
-              Her session will delve into the dynamic world of Data Analytics, its role in decision-making, and the impact of Generative AI in revolutionizing industries. Additionally, she will shed light on Prompt Engineering, a crucial skill for optimizing interactions with AI models like ChatGPT. Attendees will gain practical knowledge on how to refine AI prompts for maximum efficiency and accuracy, making this session particularly valuable for those interested in AI-driven solutions.
+              Her session on "End-to-End Data Analytics" will provide participants with a comprehensive understanding of the entire data analytics lifecycle—from data collection and preprocessing to analysis, visualization, and deriving actionable insights. She will delve into modern tools, frameworks, and best practices used in the industry, empowering attendees with real-world applications of data analytics.
             </p>
             <p className="text-body lg:text-2xl mt-4">
-              Join us for an engaging and insightful talk as Sowmiyalakshmi shares her expertise, real-world case studies, and future trends in Data Analytics and AI, helping participants stay ahead in the ever-evolving tech landscape.
+              This expert talk is a great opportunity for students, aspiring data professionals, and tech enthusiasts to gain valuable insights into how data analytics shapes businesses and fuels innovation.
             </p>
           </section>
         </motion.div>
