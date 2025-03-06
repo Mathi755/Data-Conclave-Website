@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import VanillaTilt from "vanilla-tilt";
-// import eventPoster from "../assets/symposium/OverallPoster.jpeg";
-import eventPoster from "../assets/symposium/overallPoster.jpg"
+import eventPoster from "../utils/Img/banner/overall.jpg";
 import EventButton from "./EventButton";
 
 const EventContainer = () => {
@@ -27,7 +26,7 @@ const EventContainer = () => {
         >
           <img
             src={eventPoster}
-            className="w-full h-auto sm:max-w-[360px] md:max-w-[480px] lg:max-w-[600px] xl:max-w-[800px]"
+            className="w-full h-auto sm:max-w-[300px] md:max-w-[400px] lg:max-w-[500px] xl:max-w-[600px]" // Reduced size
             alt="Event Poster"
           />
         </div>

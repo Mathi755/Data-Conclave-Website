@@ -3,11 +3,11 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from '../utils/Img/TechLogo.jpg';
-import energia from "../assets/symposium/energiaNova.jpg";
+import energia from "../utils/Img/banner/overall.jpg";
 import batallia from "../assets/symposium/robots.png";
 import bizqueset from "../assets/symposium/Biquest.png"
 import tescaflow from "../assets/symposium/Tescaflow.jpg"
-import cassedete from "../assets/symposium/cassedete.jpg"
+import cassedete from "../utils/Img/banner/overall.jpg"
 
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
@@ -33,27 +33,8 @@ const CircuitTec = () => {
       label: "Casse-dete",
       path: "/cassedete",
     },
-    {
-      id: 3,
-      imageSrc: batallia, 
-      altText: "Batallia de Robots",
-      label: "Batallia de Robots",
-      path: "/batallia",
-    },
-    {
-      id: 4,
-      imageSrc: tescaflow, 
-      altText: "Tescaflow",
-      label: "Tescaflow",
-      path: "/tescaflow",
-    },
-    {
-      id: 5,
-      imageSrc: bizqueset, 
-      altText: "BizQuest",
-      label: "BizQueset",
-      path: "/bizqueset",
-    },
+   
+    
   ];
 
   return (

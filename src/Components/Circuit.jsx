@@ -9,19 +9,13 @@ import "animate.css";
 const Circuit = () => {
   return (
     <div>
-      <TrackInfo
-        label="TRACK II"
-        Image={img}
-        Description="Registration for Data Conclave is now open! Secure your spot today and
-            be part of an event that celebrates innovation and collaboration.
-            Don’t miss the opportunity to engage with tech enthusiasts and experts."
-      />
+      
 
       <CircuitTec />
       <NonCircuitnTech />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeN-2jLB-1VDYrKwieEQC7grGuG-QyDJXsfqIpr3YAx-cbtXA/viewform"
+          href="https://forms.gle/hv1uM6TzbpaK35Xh6"
           target="_blank"
           rel="noopener noreferrer"
         >

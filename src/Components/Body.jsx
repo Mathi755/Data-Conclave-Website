@@ -43,9 +43,9 @@ const Body = () => {
       <div className="mt-small">
       <CollegeName />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp duration-500">
-        <Link to="/events">
-          <EventButton label="Explore" />
-        </Link>
+      <a href="https://forms.gle/hv1uM6TzbpaK35Xh6" target="_blank" rel="noopener noreferrer">
+            <EventButton label="Register" />
+        </a>
       </div>
 
       <CountdownTimer />
@@ -58,8 +58,8 @@ const Body = () => {
       <InfoSections />
       <TeamCarousel /> */}
       <OverallGuest />
-      <Carousel1 />
-      <Carousel />
+      {/*<Carousel1 />
+      <Carousel />*/}
       <Faq />
       {/* <MediaSection />
       <ContactUs />

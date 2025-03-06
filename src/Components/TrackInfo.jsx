@@ -30,10 +30,7 @@ const TrackInfo = ({label,Image,Description}) => {
             {Description}
           </p>
           <br />
-          <p>
-            <b>Note : </b>
-            Please be advised that there will be a single registration process for all {label} events. Ensure that you complete the registration only once for {label}. <b>Scroll down to Register!!!</b>
-          </p>
+          
         </div>
 
         {/* Image Poster Section */}
