@@ -9,30 +9,31 @@ const Contact = () => {
       coordinators: [
         {
           name: "Bastin K J",
-          designation: "General Secretary",
+       //   designation: "General Secretary",
           phone: "+918939737057",
         },
         {
-          name: "Gomathi Nayagam",
-          designation: "Data Science Club Head",
-          phone: "+919025896912",
+          name: "GOMATHI nAYAGAM ",
+        //  designation: "President ",
+          phone: "+918610016966",
         //   email: "jane@example.com",
-        },
+        }
+        
       ],
     },
     {
       trackName: "DAY II",
       coordinators: [
         {
-          name: "Darwin D",
-          designation: "Media Head",
-          phone: "+918056747791",
-        //   email: "alice@example.com",
+          name: "Riduvarshini M",
+         // designation: "Vice President ",
+          phone: "+919042398725",
+        //   email: "jane@example.com",
         },
         {
-          name: "Jonesh Linso",
-          designation: "Creatives Head",
-          phone: "+918122116830",
+          name: "Guru Prasaath D",
+          //designation: "Vice President",
+          phone: "+917587787910",
         //   email: "bob@example.com",
         },
       ],
