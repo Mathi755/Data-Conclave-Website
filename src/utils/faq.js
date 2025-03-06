@@ -1,14 +1,14 @@
 export const questions = [
   {
     id: 1,
-    question: "What is Data Conclave?",
+    question: "Who Can Attend?",
     answer:
-      "Data Conclave is a tech symposium featuring workshops, competitions, and talks on the latest in technology.",
+      "Students, tech enthusiasts, researchers, and professionals eager to dive into the world of AI & Data Science.",
   },
   {
     id: 2,
     question: "Do I need to pay to participate?",
-    answer: "Individual Registration for all events: Rs.200 and for Group Registration(10-12 members from the same institute): Rs.2000",
+    answer: "Completely Free!!",
   },
   {
     id: 3,
@@ -18,6 +18,6 @@ export const questions = [
   {
     id: 4,
     question: "Are there prizes for competitions?",
-    answer: "Yes, exciting prizes and certificates are awarded to winners of competitions.",
+    answer: "Yes, Certificates are awarded to winners of competitions.",
   },
 ];
