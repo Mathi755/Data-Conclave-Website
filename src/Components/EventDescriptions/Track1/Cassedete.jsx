@@ -42,7 +42,7 @@ const Cassedete = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Expert Talk 4
+            Workshop
           </h1>
 
           <section className="text-gray-300 text-justify">
