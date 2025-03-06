@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/CodeSprint.jpeg";
+import EventImage from "../../../utils/Img/banner/Expert Talk/5.jpg";
 import "./Eloquence.css";
 
 const CodeSprint = () => {

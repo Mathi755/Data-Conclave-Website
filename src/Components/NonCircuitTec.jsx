@@ -3,13 +3,13 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
-import elo from "../utils/Img/banner/overall.jpg";
-import viz from "../utils/Img/banner/overall.jpg";
-import wiz from "../utils/Img/banner/overall.jpg";
-import ghost from "../assets/symposium/Ghost.png";
-import matter from "../assets/symposium/MatterMindNew.jpg";
-import codesprint from "../assets/symposium/CodeSprint.jpeg";
-
+import a1 from "../utils/Img/banner/Expert Talk/1.jpg";
+import a2 from "../utils/Img/banner/Expert Talk/2.jpg";
+import a3 from "../utils/Img/banner/Expert Talk/3.jpg";
+import a4 from "../utils/Img/banner/Expert Talk/4.jpg";
+import a5 from "../utils/Img/banner/Expert Talk/5.jpg";
+import a6 from "../utils/Img/banner/Expert Talk/6.jpg";
+import a7 from "../utils/Img/banner/Expert Talk/7.jpg";
 import RandomEvents from "./RandomEvents";
 
 import { Link } from "react-router-dom";
@@ -22,17 +22,52 @@ const NonCircuitTec = () => {
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: elo, // Replace with actual image path
+      imageSrc: a1, // Replace with actual image path
       altText: "Eloquence",
       label: "Eloquence",
       path: "/eloquence",
     },
     {
       id: 2,
-      imageSrc: wiz,
+      imageSrc: a2,
       altText: "Wizzup",
       label: "Wizzup",
       path: "/wizzup",
+    },
+    {
+      id: 3,
+      imageSrc: a3,
+      altText: "Wizzup",
+      label: "Wizzup",
+      path: "/GhostOps",
+    },
+    {
+      id: 4,
+      imageSrc: a4,
+      altText: "Wizzup",
+      label: "Wizzup",
+      path: "/Cassedete",
+    },
+    {
+      id: 5,
+      imageSrc: a5,
+      altText: "Wizzup",
+      label: "Wizzup",
+      path: "/CodeSprint",
+    },
+    {
+      id: 6,
+      imageSrc: a6,
+      altText: "Wizzup",
+      label: "Wizzup",
+      path: "/MatterMind",
+    },
+    {
+      id: 7,
+      imageSrc: a7,
+      altText: "Wizzup",
+      label: "Wizzup",
+      path: "/VizYourWay",
     },
 
   ];

@@ -1,8 +1,8 @@
-import overallImg from "../utils/Img/banner/overall.jpg"
+import overallImg from "../utils/Img/banner/Main Banner.jpg"
 function OverallGuest() {
   return (
-    <div className="flex justify-center items-center mb-2">
-        <img src={overallImg} alt="" width={500} />
+    <div className="flex justify-center items-center mb-3">
+        <img src={overallImg} alt="" width={800} />
     </div>
   );
 }

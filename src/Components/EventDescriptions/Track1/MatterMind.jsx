@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/MatterMindNew.jpg";
+import EventImage from "../../../utils/Img/banner/Expert Talk/6.jpg";
 import "./Eloquence.css";
 
 const MatterMind = () => {
