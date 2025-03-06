@@ -43,62 +43,33 @@ const MatterMind = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          💡✨
+          ✨
           <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            ⚜️ MATTERMIND ⚜️
+            Expert Talk 
           </span>
         </h1>
 
-        <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <h2>Round 1 - Trick 'O Tick ✅</h2>
-          <p>An quiz on computer basics and algorithms</p>
-        </section>
-
-        <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <h2>Round 2 - 📸 Pixel Craft 🏜️</h2>
-          <p>
-            Objective: Participants must craft a prompt to generate an image
-            using an AI tool that matches the provided source image as closely
-            as possible.
+        <section className="text-gray-300 text-justify">
+          <h2 className="text-head lg:text-4xl font-bold mb-2 gradient-text">
+            Chief Guest
+          </h2>
+          <p className="text-body lg:text-2xl">
+            <strong>Eswara Narayanan</strong><br />
+            <strong>Designation:</strong> Technical Architect, Capgemini<br />
+            <strong>Expert Talk Topic:</strong> DevOps<br />
+            <strong>Session Timing:</strong> Morning, 09:00 AM
           </p>
-          <ul className="list-disc list-inside mt-4">
-            <li>
-              Tool: Only the specified AI tool provided by the organizers can
-              be used.
-            </li>
-            <li>
-              📌 Use the given AI tool to craft prompts and generate an image
-              matching the source image.
-            </li>
-            <li>
-              📌 Submit your prompt and generated image within the given time.
-            </li>
-            <li>
-              📌 Judging is based on relevance, creativity, and accuracy.
-            </li>
-            <li>📌 No external edits or plagiarized prompts are allowed.</li>
-          </ul>
+          <p className="text-body lg:text-2xl mt-4">
+            We are honored to have Eswara Narayanan, a seasoned Technical Architect at Capgemini, as our esteemed guest speaker for the workshop. With extensive experience in software development, cloud computing, and DevOps transformation, Mr. Narayanan has been instrumental in driving seamless automation and efficient software delivery pipelines in enterprise environments.
+          </p>
+          <p className="text-body lg:text-2xl mt-4">
+            In his expert talk on DevOps, he will provide valuable insights into modern software development practices, CI/CD pipelines, automation tools, and best practices to bridge the gap between development and operations teams. His session will focus on streamlining workflows, enhancing collaboration, and accelerating deployment cycles, helping organizations achieve agility and innovation.
+          </p>
+          <p className="text-body lg:text-2xl mt-4">
+            Join us for this enriching session as Mr. Narayanan shares his industry expertise and practical strategies to implement DevOps effectively in real-world scenarios.
+          </p>
         </section>
 
-        <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <h2>Round 3 - Unwrap the code 👩‍💻</h2>
-          <ul className="list-disc list-inside mt-4">
-            <li>
-              🔸 Setup: We display a specific output along with some hints to
-              help to reconstruct the original input or code in a time
-              constraint.
-            </li>
-            <li>
-              🔸 Workflow: Using the hints, participants must logically
-              reverse-engineer the code or deduce the correct inputs that could
-              generate the given output.
-            </li>
-            <li>
-              📌 Target: The goal is to correctly identify the inputs or code
-              that produces the given output in the shortest time.
-            </li>
-          </ul>
-        </section>
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             For Enquiry:

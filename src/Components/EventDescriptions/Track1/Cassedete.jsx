@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import JigsawImage from "../../../utils/Img/banner/Expert Talk/4.jpg";
+import JigsawImage from "../../../utils/Img/banner/Expert Talk/3.jpg";
 
 const Cassedete = () => {
   const tiltRefJigsaw = useRef(null);
@@ -42,48 +42,28 @@ const Cassedete = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Casse-Dete
+            Expert Talk 4
           </h1>
 
           <section className="text-gray-300 text-justify">
             <h2 className="text-xl md:text-2xl font-bold gradient-text">
-              Rules and Regulations
+              Chief Guest
             </h2>
-            <ul className="list-disc list-inside">
-              <li>The participants must pair up as a team, a team must not exceed more than two members.</li>
-              <li>Any malpractice of participants at the time of events/rounds may lead to disqualification. </li>
-            </ul>
-          </section>
-
-          <section className="text-gray-300 mt-4">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold gradient-text">
-              Round Details
-            </h2>
-            <div className="mt-4">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-200">Round 1: Qualifying Round</h3>
-              <ul className="list-disc list-inside ml-6">
-                <li>This round will test your knowledge of circuit theory, electronic components, power systems, control loops, and much more.</li>
-                <li>Answer trivia questions as quickly as possible and compete for the top spot in this fast-paced quiz on Kahoot!</li>
-                <li>Top 10 teams will qualify for the Round 2.</li>
-              </ul>
-            </div>
-            <div className="mt-4">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-200">Round 2: Elimination Round</h3>
-              <ul className="list-disc list-inside ml-6">
-                <li>In this round, your expertise in circuit engineering will be tested in a crossword puzzle filled with essential engineering terms.</li>
-                <li>Fill in the grid with key concepts from various branches of circuit engineering.</li>
-                <li>Top 5 teams will be qualified for Round 3.</li>
-              </ul>
-            </div>
-            <div className="mt-4">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-200">Round 3: Final Round</h3>
-              <ul className="list-disc list-inside ml-6">
-                <li>Round off the event by putting skills to the ultimate test with a jigsaw puzzle. </li>
-                <li>The participants will be piecing together parts of a circuit components or equipment.</li>
-                <li>Work quickly to assemble the components and form a complete, working schematic.</li>
-                <li>The top 2 teams will be selected as the winner and the runner.</li>
-              </ul>
-            </div>
+            <p className="text-body lg:text-2xl">
+              <strong>Sowmiyalakshmi</strong><br />
+              <strong>Designation:</strong> Data Engineer, Infosys<br />
+              <strong>Expert Talk Topic:</strong> Data Analytics, Generative AI, and Prompt Engineering<br />
+              <strong>Session Timing:</strong> Morning, 10:00 AM
+            </p>
+            <p className="text-body lg:text-2xl mt-4">
+              We are delighted to welcome Sowmiyalakshmi, an accomplished Data Engineer at Infosys, as a distinguished guest speaker for our workshop. With a strong background in data analytics, artificial intelligence, and cutting-edge AI applications, she has played a pivotal role in leveraging data-driven insights to drive business growth and innovation.
+            </p>
+            <p className="text-body lg:text-2xl mt-4">
+              Her session will delve into the dynamic world of Data Analytics, its role in decision-making, and the impact of Generative AI in revolutionizing industries. Additionally, she will shed light on Prompt Engineering, a crucial skill for optimizing interactions with AI models like ChatGPT. Attendees will gain practical knowledge on how to refine AI prompts for maximum efficiency and accuracy, making this session particularly valuable for those interested in AI-driven solutions.
+            </p>
+            <p className="text-body lg:text-2xl mt-4">
+              Join us for an engaging and insightful talk as Sowmiyalakshmi shares her expertise, real-world case studies, and future trends in Data Analytics and AI, helping participants stay ahead in the ever-evolving tech landscape.
+            </p>
           </section>
         </motion.div>
       </div>
