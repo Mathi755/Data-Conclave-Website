@@ -31,8 +31,8 @@ const NonCircuitTec = () => {
       path: "/wizzup",
     },{
       id: 3,
-      imageSrc: a3,
-      altText: "Cassedete",
+      
+      altText: "Coming Soon",
       label: "Wizzup",
       path: "/Cassedete",
     },

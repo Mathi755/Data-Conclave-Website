@@ -28,7 +28,7 @@ const NewAbout = () => {
 
         {/* Title */}
         <h2 className="text-3xl md:text-5xl font-aboutfont tracking-widest text-left">
-          DATA CONCLAVE 2024-'25
+          Data Science Conclave 2024-'25
         </h2>
 
         {/* Content Section */}
@@ -36,7 +36,7 @@ const NewAbout = () => {
           {/* Text Section */}
           <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
           <p><br />
-      🚀 <strong>Welcome to Data Conclave 2025 - The Future of Data & AI!</strong> Join us for an exclusive event dedicated to cutting-edge innovations, trends, and advancements in Data Science, AI, and emerging technologies. This is your chance to learn, collaborate, and network with fellow students, professionals, and industry leaders shaping the future of tech!
+      🚀 <strong>Welcome to Data Science Conclave 2025 - The Future of Data & AI!</strong> Join us for an exclusive event dedicated to cutting-edge innovations, trends, and advancements in Data Science, AI, and emerging technologies. This is your chance to learn, collaborate, and network with fellow students, professionals, and industry leaders shaping the future of tech!
       <br />
       <br />
       📅 <strong>Event Dates:</strong> 10th & 11th March <br />
@@ -75,7 +75,7 @@ const NewAbout = () => {
     </p>
             <p className="mt-4">
               Join us in this journey where vision meets reality, and together,
-              we shape the technology of tomorrow. Data Conclave is not just an
+              we shape the technology of tomorrow. Data Science Conclave is not just an
               event; it's an experience that leaves a lasting impression.
             </p>
           </div>
@@ -87,7 +87,7 @@ const NewAbout = () => {
           >
             <img
               src={Image}
-              alt="Data Conclave Logo"
+              alt="Data Science Conclave Logo"
               className="max-w-full md:max-w-[80%] rounded-lg"
             />
           </div>

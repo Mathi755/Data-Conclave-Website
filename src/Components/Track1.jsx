@@ -31,7 +31,7 @@ const Track1 = () => {
           {/* Text Section */}
           <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
             <p>
-            Data Conclave is the epitome of innovation and collaboration,
+            Data Science Conclave is the epitome of innovation and collaboration,
               designed to foster creativity, ignite ideas, and push the
               boundaries of technology. With a focus on modern advancements, it
               stands as a beacon for tech enthusiasts, paving the way for a
@@ -39,7 +39,7 @@ const Track1 = () => {
             </p>
             <p className="mt-4">
               Join us in this journey where vision meets reality, and together,
-              we shape the technology of tomorrow. Data Conclave is not just an
+              we shape the technology of tomorrow. Data Science Conclave is not just an
               event; it's an experience that leaves a lasting impression.
             </p>
           </div>
@@ -51,7 +51,7 @@ const Track1 = () => {
           >
             <img
               src={Image}
-              alt="Data Conclave Logo"
+              alt="Data Science Conclave Logo"
               className="max-w-full md:max-w-[80%] rounded-lg shadow-lg"
             />
           </div>
